@@ -33,3 +33,19 @@ models:
     columns:
       - name: id
         description: "The primary key for this table"
+
+  - name: session_start
+    description: "event session start"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - not_null
+  
+  - name: auth
+    description: "event session start"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - not_null
